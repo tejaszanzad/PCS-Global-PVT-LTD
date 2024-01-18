@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<h1> Product List : </h1>
+<title>Spring_Boot_JDBC</title>
+</head>
+<body>
+
+
+	
+	<table border="1px">
+		<tr>
+			<td>Product ID</td>
+			<td>Product Name</td>
+			<td>Product Price </td>
+		</tr>
+		
+		<tr th:each="product : ${prodList}">
+			<td><span th:text="${product.productId}"> </span></td>	
+			<td><span th:text="${product.productName}"> </span></td>	
+			<td><span th:text="${product.productPrice}"> </span></td>	
+		</tr>
+	</table>
+
+</body>
+</html>
