@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Jan/2024:14:15:17 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:15:18 +0530] "GET /JSP_Servlet_MVC/ HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:15:18 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:15:22 +0530] "GET /JSP_Servlet_MVC/userForm.jsp HTTP/1.1" 200 357
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:15:31 +0530] "POST /JSP_Servlet_MVC/UserServlet HTTP/1.1" 200 803
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:15:54 +0530] "GET /JSP_Servlet_MVC/userForm.jsp HTTP/1.1" 200 357
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:16:03 +0530] "POST /JSP_Servlet_MVC/UserServlet HTTP/1.1" 200 899
+127.0.0.1 - - [12/Jan/2024:14:57:15 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:57:16 +0530] "GET /JSP_Servlet_MVC/ HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:57:18 +0530] "GET /JSP_Servlet_MVC/userForm.jsp HTTP/1.1" 200 357
+0:0:0:0:0:0:0:1 - - [12/Jan/2024:14:57:26 +0530] "POST /JSP_Servlet_MVC/UserServlet HTTP/1.1" 200 996

@@ -1,0 +1,16 @@
+package com.pcsglobal.listeners;
+
+import org.springframework.context.event.ContextStartedEvent;
+import org.springframework.context.event.EventListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AppListeners {
+	
+	@EventListener
+	public void serveStarted(ContextStartedEvent event) {
+		System.out.println("Context started event occured");
+	}
+
+
+}

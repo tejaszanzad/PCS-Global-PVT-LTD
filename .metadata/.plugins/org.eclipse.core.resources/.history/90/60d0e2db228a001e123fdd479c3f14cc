@@ -1,0 +1,20 @@
+package java8;
+
+@FunctionalInterface
+interface B{
+	
+	void show(int i);
+	
+}
+
+public class lambdaexpression2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+        B obj = (int i) -> System.out.println("Lambda Expression " + i);
+		
+		obj.show(5);
+	}
+
+}

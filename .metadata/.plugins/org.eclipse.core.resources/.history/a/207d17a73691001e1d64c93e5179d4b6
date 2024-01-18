@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>First Project</title>
+</head>
+<body>
+<h1>Welcome To PCS Global</h1>
+<form>
+ Employee Name : <input type="text" ><br>
+ Employee Id :   <input type="number"><br>
+ Employee Mail : <input type="email"><br>
+ Password :      <input type="password"><br>
+ <br>
+ <input type="submit" class="xyz">
+</form>
+</body>
+</html>

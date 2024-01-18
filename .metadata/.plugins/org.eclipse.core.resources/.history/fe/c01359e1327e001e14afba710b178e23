@@ -1,0 +1,23 @@
+package com.eilp.q3.day1;
+
+public class Eilp_day1 {
+	
+	//The main() method is required to execute the java program
+	
+	/*The main() method
+	 * is required to
+	 * execute the java program
+	 */
+	
+	//Datatype Example
+	String greet = "Hello World";
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		System.out.println(greet);
+		System.out.print("Hello World");
+		
+	}
+	
+}
